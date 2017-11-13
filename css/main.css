@@ -96,9 +96,105 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.7em;
+    text-transform: uppercase;
+  }
 
+  #sidebar {
+    height: 100vh;
+    width: 300px;
+    display: inline-block;
+    position: fixed;
+    list-style-type: none;
+    padding: .5em 0;
+  }
 
+  a {
+    color: #9eafba;
+    text-decoration: none;
+    text-align: left;
+    transition: all .4s ease;
+  }
 
+  a:hover {
+    color: #3399ff;
+  }
+  #logo {
+    margin: 20px 20px 24px 20px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  li {
+    padding: 7px;
+  }
+
+  #main {
+    width: calc(100vw - 300px);
+    float: left;
+    margin-left: 300px;
+    overflow: hidden;
+  }
+
+  #project-section {
+  }
+
+  .project {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .project > p {
+    float: right;
+    display: inline-block;
+    width: 300px;
+    margin-left: 100px;
+  }
+
+  .project > img {
+    height: 300px;
+  }
+
+  .project > p {
+    float: right;
+    display: inline-block;
+    width: 300px;
+    margin-left: 100px;
+  }
+
+  #about-section {
+  }
+  .wrapper {
+    width: 450px;
+  }
+
+  .about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .about > img {
+    height: 600px;
+    position: absolute;
+    right: 0;
+    align-self: flex-end;    
+  }
+
+  .wrapper > h1 {
+    text-align: center;
+  }
+
+  .about > p {
+    display: inline-block;
+    width: 200px;
+    margin-left: 100px;
+  }
 
 
 
