@@ -157,7 +157,7 @@ textarea {
   }
 
   .project > img {
-    height: 300px;
+    width: 450px;
   }
 
   .project > p {
@@ -169,8 +169,9 @@ textarea {
 
   #about-section {
   }
-  .wrapper {
+  .about-wrapper {
     width: 450px;
+    margin-left: 100px;
   }
 
   .about {
@@ -186,7 +187,7 @@ textarea {
     align-self: flex-end;
   }
 
-  .wrapper > h1 {
+  .about-wrapper > h1 {
     text-align: center;
   }
 
@@ -198,14 +199,20 @@ textarea {
 
   #resume-section {
   }
-  .wrapper {
-    width: 450px;
+
+  .resume-wrapper {
+    width: 400px;
+    margin-left: 50px;
   }
 
   .resume {
     height: 100vh;
     display: flex;
     align-items: center;
+  }
+
+  .resume > a {
+    text-align: center;
   }
 
   .resume > img {
@@ -215,25 +222,16 @@ textarea {
     align-self: flex-end;
   }
 
-  .wrapper > h1 {
+  .resume-wrapper > h1 {
     text-align: center;
   }
 
   .resume > p {
+    text-align: center;
     display: inline-block;
     width: 200px;
     margin-left: 100px;
   }
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
